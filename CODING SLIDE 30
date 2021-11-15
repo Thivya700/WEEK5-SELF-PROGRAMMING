@@ -1,0 +1,29 @@
+package selfprogramming;
+import java.util.Scanner;
+
+public class Slide30 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int mark;
+
+		Scanner scan = new Scanner (System.in);
+		System.out.println("Enter marks : ");
+		mark = scan.nextInt();
+		
+		if (mark >= 90)
+			  System.out.println("grade = A");
+			else if (mark >= 80)
+				System.out.println("grade = B");
+			else if (mark >= 70)
+				System.out.println("grade = C");
+			else if (mark >= 60)
+				System.out.println("grade = D");
+			else   
+				System.out.println("grade = E");
+
+
+	}
+
+}
