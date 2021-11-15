@@ -1,0 +1,25 @@
+package selfprogramming;
+
+public class Slide24 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double amount = 300;
+		double balance = 30;
+		final double OVERDRAFT_PENALTY = 20;
+		
+		if (amount <= balance)
+		{
+			balance = balance - amount;
+			System.out.println("Acct new balance = " + balance);
+		}
+		else
+		{
+		      balance = balance - OVERDRAFT_PENALTY;
+			  System.out.println("TRANSACTION NOT ALLOWED");
+		} 
+
+
+	}
+
+}
