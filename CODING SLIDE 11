@@ -1,0 +1,20 @@
+package selfprogramming;
+
+public class Slide11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double total = 700;
+		final double MAX_RATE = 200;
+		double charge = 1;
+		
+		
+		if (total > MAX_RATE)
+			charge = total * MAX_RATE;
+			System.out.println ("The total is " + total);
+			System.out.println ("The charge is " + charge);
+
+	}
+
+}
