@@ -1,0 +1,15 @@
+package selfprogramming;
+
+public class Slide16 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double income = 3000;
+		final double MIN_LEVEL = 1000;
+		int age = 30;
+		if ((income > MIN_LEVEL ) && (age <50))
+			   System.out.println ("Can Apply Loan");
+
+	}
+
+}
